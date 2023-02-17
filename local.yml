@@ -1,6 +1,6 @@
 ---
 - name: Create bda directory
-  hosts: pi
+  hosts: all
   become: yes
   tasks:
   - file:
