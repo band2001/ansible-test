@@ -1,0 +1,8 @@
+---
+- name: Create bda directory
+  hosts: pi
+  become: yes
+  tasks:
+  - file:
+      path: /home/pi/bda2
+      state: directory
